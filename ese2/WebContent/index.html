@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<form  name='echo' action='recho' method ='post'>
+		<fieldset>
+		<legend>Credenziali</legend>
+		Nome o ragione sociale: <input type='text' name='name' required><br>
+		Cognome: <input type='text' name='surname' required><br>
+		cf/Piva: <input type='text' name='cf' required><br>
+		Password: <input type='password' name='password' required><br>
+		email: <input type='text' name='email' required><br>
+		</fieldset><br>
+		<fieldset>
+		<legend>Locazione</legend>
+		Indirizzo: <input type='text' name='address' required><br>
+		CAP: <input type='text' name='cap' required><br>
+		</fieldset><br>
+		<fieldset>
+		<legend>Carta di credito</legend>
+		Numero carta: <input type='text' name='cardnumber' required><br>
+		Data scadenza <input type='date' name='date' min='2021-03-22' required><br>
+		Codice segreto: <input type='text' name='code' required><br>
+		</fieldset><br>
+		<input type='submit' value='Invia'>
+	</form><br>
+	<fieldset>
+	<legend>Extra</legend>
+		<ol type='1'>
+			<li>Element 1</li>
+			<li>Element 2</li>
+			<li>Element 3</li>
+		</ol>
+		<ul>
+			<li>Element 1</li>
+			<li>Element 2</li>
+			<li>Element 3</li>
+		</ul>
+		Primo <input type='checkbox' name='checkbox' value='primo'>
+		Secondo <input type='checkbox' name='checkbox' value='secondo'><br>
+		Primo <input type='radio' name='radio' value='primo'>
+		Secondo <input type='radio' name='radio' value='secondo'><br>
+		<textarea name='text'></textarea><br><br>
+		<select name='options'>
+			<option value='op1'>Option 1</option>
+			<option value='op2'>Option 2</option>
+			<option value='op3'>Option 3</option>
+		</select>
+	</fieldset>
+</body>
+</html>
